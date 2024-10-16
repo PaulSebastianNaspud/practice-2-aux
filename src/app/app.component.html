@@ -1,7 +1,9 @@
 <app-header></app-header>
-<app-add-course></app-add-course>
+<app-add-course (addCourseEvent)="sendDataToList($event)"></app-add-course>
 <!--
 <router-outlet />
 -->
-git 
+<app-list-course ></app-list-course>
+
+
 <app-footer></app-footer>
